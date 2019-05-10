@@ -18,9 +18,6 @@ const GlobalStyle = createGlobalStyle`
   margin: 0;
   padding: 0;
 }
-body{
-  background: blue;
-}
 `
 // import "./layout.css"
 // import "../sass/layout.scss"
