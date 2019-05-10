@@ -3,6 +3,10 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+/* .title {
+  color: red;
+  font-size: 2.5 rem;
+} */
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
