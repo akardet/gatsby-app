@@ -12,6 +12,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <Info />
+    <Link to="/images/">Images</Link>
     <h1 style={{ color: "red" }}>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
