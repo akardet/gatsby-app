@@ -19,6 +19,7 @@ const IndexPage = () => (
     <FaApple className="icon" />
     <Button>I'm from styled</Button>
     <Link to="/page-2/">Go to page 2</Link>
+    <Link to="/product/testing/">Go to testing</Link>
   </Layout>
 )
 
