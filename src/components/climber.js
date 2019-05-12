@@ -6,8 +6,8 @@ const getDude = graphql`
   {
     file(relativePath: { eq: "climber.jpg" }) {
       childImageSharp {
-        fixed(width: 150, height: 100) {
-          ...GatsbyImageSharpFixed_tracedSVG
+        fluid {
+          ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
@@ -19,7 +19,11 @@ export default function climber() {
     <StaticQuery
       query={getDude}
       render={data => {
-        return <Img fixed={data.file.childImageSharp.fixed} />
+        return (
+          <div style={{ maxWidth: "300px" }}>
+            <Img fluid={data.file.childImageSharp.fluid} />
+          </div>
+        )
       }}
     />
   )
