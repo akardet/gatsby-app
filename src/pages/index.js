@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import { Button } from "../components/Button"
 import { FaApple } from "react-icons/fa"
 import Info from "../components/info"
+import Climber from "../components/climber"
 
 const IndexPage = () => (
   <Layout>
@@ -18,6 +19,7 @@ const IndexPage = () => (
     <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
+      <Climber />
     </div>
     <FaApple className="icon" />
     <Button>I'm from styled</Button>
