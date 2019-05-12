@@ -13,13 +13,13 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <Info />
+    <Climber />
     <Link to="/images/">Images</Link>
     <h1 style={{ color: "red" }}>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
-      <Climber />
     </div>
     <FaApple className="icon" />
     <Button>I'm from styled</Button>
