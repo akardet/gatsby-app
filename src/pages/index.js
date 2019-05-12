@@ -12,6 +12,9 @@ import Climber from "../components/climber"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <Link to="/products/">
+      <h1>Products Page</h1>
+    </Link>
     <Info />
     <Climber />
     <Link to="/images/">Images</Link>
@@ -24,7 +27,6 @@ const IndexPage = () => (
     <FaApple className="icon" />
     <Button>I'm from styled</Button>
     <Link to="/page-2/">Go to page 2</Link>
-    <Link to="/product/testing/">Go to testing</Link>
   </Layout>
 )
 
